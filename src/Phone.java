@@ -1,14 +1,14 @@
 /**
  * Created by Amuri on 4/16/2018.
  */
-public class Mobile {
+public class Phone {
     private String manufacturer;
     private String operating_system;
     public String model;
     private int cost;
-    //Constructor to set properties/characteristics of object
 
-    public Mobile(String manufacturer, String operating_system, String model, int cost) {
+    //Constructor to set properties/characteristics of object
+    public Phone(String manufacturer, String operating_system, String model, int cost) {
         this.manufacturer = manufacturer;
         this.operating_system = operating_system;
         this.model = model;
